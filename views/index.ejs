@@ -28,6 +28,12 @@
                 Shortened Url: <a href="<%= shortUrl %>" target="_blank"><%= shortUrl.split('/').pop() %></a>
             </div>
         <% } %>
+
+        <% if(error){ %>
+            <div class="error-result">
+                <%= error %>
+            </div>
+        <% } %>
         
     </section>
 </body>

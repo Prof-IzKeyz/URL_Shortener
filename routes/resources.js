@@ -32,9 +32,9 @@ router.post('/ui-create', async (req, res) => {
         });
 
     } catch(error) {
-        return res.status(500).render('index', {
+        return res.status(400).render('index', {
             shortUrl: null,
-            error: "Internal server error"
+            error: error.message || "Internal server error"
         });
     }
 });
