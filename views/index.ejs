@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URLShortener</title>
+</head>
+<body>
+    <section class="card">
+        <h1>Url Shortener</h1>
+        <p>Group 4 Project 11 workspace</p>
+
+        <form action="/resources/ui-create" method="POST">
+            <section class="form-group">
+                <label for="originalUrl">Enter URL:</label>
+                <input type="text" id="originalUrl" name="originalUrl" placeholder="https://example.com" required>
+            </section>
+            <section class="form-group">
+                <label for="customCode">Custom Alphanumeric Url (Optional):</label>
+                <input type="text" id="customCode" name="customCode" placeholder="custom-key">
+            </section>
+            <button type="submit">Generate Url</button>
+        </form>
+
+        <% if(shortUrl){ %>
+            <div class="result">
+                <strong>Url Generated Successfully!!</strong> <br>
+                Shortened Url: <a href="<%= shortUrl %>" target="_blank"><%= shortUrl.split('/').pop() %></a>
+            </div>
+        <% } %>
+
+        <% if(error){ %>
+            <div class="error-result">
+                <%= error %>
+            </div>
+        <% } %>
+        
+    </section>
+</body>
+</html>

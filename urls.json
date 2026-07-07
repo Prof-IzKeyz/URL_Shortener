@@ -1,0 +1,16 @@
+[
+  {
+    "id": "google2",
+    "originalUrl": "https://google.com",
+    "clicks": 1,
+    "createdAt": "2026-07-06T14:45:35.789Z",
+    "updatedAt": "2026-07-06T14:45:42.384Z"
+  },
+  {
+    "id": "google",
+    "originalUrl": "https://google.com",
+    "clicks": 0,
+    "createdAt": "2026-07-06T14:46:11.756Z",
+    "updatedAt": "2026-07-06T14:46:11.756Z"
+  }
+]
