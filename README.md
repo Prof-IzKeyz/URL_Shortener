@@ -15,9 +15,9 @@
   <li><b>BACKEND:</b>Express, node.js</li>
   <li><b>FRONTEND:</b>EJs</li>
 </ul>
-<h5>GETTING STARTED</h5> 
 
-<h5>Run Locally</h5>
+<h2>GETTING STARTED</h2> 
+</h4>To run locally:</h4>
 <b>npm run start</b>
 <p>Open  http://localhost:3000 for the API app.</p>
 
@@ -34,12 +34,12 @@
   <tbody>
     <tr>
       <td><code>POST</code></td>
-      <td>/api/shorten</td>
+      <td>router.post('/', async(req, res)</td>
       <td>Generates a short URL from a long URL</td>
     </tr>
     <tr>
       <td><code>GET</code></td>
-      <td>/:shortCode</td>
+      <td>'/:id', async(req,res)</td>
       <td>Redirects the user to the original destination</td>
     </tr>
         <tr>
@@ -56,15 +56,17 @@
 </table>
 
 <h2>MEMBERS & CONTRIBUTIONS</h2>
-Kenechukwu Emmanuel --> Routes, bonus
-Israel Ademu -->
-Kadarallah Jayeola --> reeadme, gitignore, testing 
-Israel Geofrey -->
-James Ogundele --> Validation
+<li>Kenechukwu Emmanuel --> Routes, bonus</li>
+<li>James Ogundele -->Storage & Validation</li>
+<li>Israel Geofrey --></li>
+<li>Kadarallah Jayeola --> reeadme, gitignore, testing </li>
+
 Kashimawo Samuel -->
 Itseuwa Dominion -->
 Lawrence Uwanaobong -->
 File storage -->
+Israel Ademu -->
 
-ISSUES AND LIMITATIONS:
-placeholder
+
+<h5>ISSUES AND LIMITATIONS</h5>
+<p>No issues or limitations</p>
