@@ -1,4 +1,4 @@
-//  Adding storage teams work to connect to the url routes team
+//  Adding storage teams work to connect to the url routes team.
 import fs from 'fs';
 
 const FILE_NAME = "urls.json";
@@ -6,6 +6,7 @@ const FILE_NAME = "urls.json";
 export function readUrls(){
     let urls = [];
     if(fs.existsSync(FILE_NAME)){
+        //
         const data = fs.readFileSync(FILE_NAME, "utf-8");
         if(data){
             urls = JSON.parse(data);
@@ -28,7 +29,8 @@ export function validateUrl(originalUrl){
 
     try{
         const parsedUrl = new URL(originalUrl);
-        if(parsedUrl.protocol !== "http:" && parsedUrl.protocol !== "https:") return;
+        if(parsedUrl.protocol !== "http:" && parsedUrl.protocol !== "https:")
+             return;
     } catch(err){
         return "Invalid URL format."
     }
