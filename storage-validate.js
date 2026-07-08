@@ -42,7 +42,7 @@ function validateUrl(originalUrl) {
     if (!originalUrl) {
         return "Original URL is required.";
     }
-//validate if the originalurl is a string
+//validate if the originalurl is a string or not
     else if (typeof originalUrl !== "string") {
         return "Original URL must be a string.";
     }
