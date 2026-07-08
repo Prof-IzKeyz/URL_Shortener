@@ -58,13 +58,12 @@
 <h2>MEMBERS & CONTRIBUTIONS</h2>
 <li>Kenechukwu Emmanuel --> URL_shortener,Routes, bonus</li>
 <li>James Ogundele -->File storage & Validation</li>
-<li>Israel Geofrey --></li>
 <li>Kadarallah Jayeola -->Routes, readme, gitignore</li>
 <li>Kashimawo Samuel -->File storage & Validation</li>
-<li>Itseuwa Dominion --></li>
+<li>Itseuwa Dominion -->File storage and validation</li>
 <li>Lawrence Uwanaobong -->File storage and validation</li>
-<li></li>File storage -->
-<li>Israel Ademu --></li>
+<li>Israel Geofrey -->Set up Github repository, routes</li>
+<li>Israel Ademu -->routes, bonus, File Storage</li>
 
 
 <h5>ISSUES AND LIMITATIONS</h5>
