@@ -35,28 +35,28 @@
     <tr>
       <td><code>POST</code></td>
       <td>router.post('/', async(req, res)</td>
-      <td>Generates a short URL from a long URL</td>
+      <td>This is the bridging route, it handles form data submission from the frontend and sends the data back to ejs template layout</td>
     </tr>
     <tr>
       <td><code>GET</code></td>
       <td>'/:id', async(req,res)</td>
-      <td>Redirects the user to the original destination</td>
+      <td> This handles the redirect logic when shortened link is visited.</td>
     </tr>
         <tr>
       <td><code>PUT</code></td>
-      <td>/:shortCode</td>
-      <td>Redirects the user to the original destination</td>
+      <td>router.put('/:id', async(req, res)</td>
+      <td>Here we update an existing short code's original long URL</td>
     </tr>
         <tr>
       <td><code>DELETE</code></td>
-      <td>/:shortCode</td>
-      <td>Redirects the user to the original destination</td>
+      <td>/router.delete('/:id', async(req, res)</td>
+      <td>This permanently deletes the short link from the system</td>
     </tr>
   </tbody>
 </table>
 
 <h2>MEMBERS & CONTRIBUTIONS</h2>
-<li>Kenechukwu Emmanuel --> Routes, bonus</li>
+<li>Kenechukwu Emmanuel --> URL_shortener,Routes, bonus</li>
 <li>James Ogundele -->File storage & Validation</li>
 <li>Israel Geofrey --></li>
 <li>Kadarallah Jayeola -->Routes, readme, gitignore</li>
