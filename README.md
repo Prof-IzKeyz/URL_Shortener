@@ -57,15 +57,14 @@
 
 <h2>MEMBERS & CONTRIBUTIONS</h2>
 <li>Kenechukwu Emmanuel --> Routes, bonus</li>
-<li>James Ogundele -->Storage & Validation</li>
+<li>James Ogundele -->File storage & Validation</li>
 <li>Israel Geofrey --></li>
-<li>Kadarallah Jayeola --> reeadme, gitignore, testing </li>
-
-Kashimawo Samuel -->
-Itseuwa Dominion -->
-Lawrence Uwanaobong -->
-File storage -->
-Israel Ademu -->
+<li>Kadarallah Jayeola -->Routes, readme, gitignore</li>
+<li>Kashimawo Samuel -->File storage & Validation</li>
+<li>Itseuwa Dominion --></li>
+<li>Lawrence Uwanaobong -->File storage and validation</li>
+<li></li>File storage -->
+<li>Israel Ademu --></li>
 
 
 <h5>ISSUES AND LIMITATIONS</h5>
